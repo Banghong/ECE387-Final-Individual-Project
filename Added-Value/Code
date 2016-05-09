@@ -1,7 +1,6 @@
 #include <SoftwareSerial.h> 
 #include <OneWire.h>
 
-//Create an instance of the softwareSerial class named pHserial
 SoftwareSerial pHserial(2,3); // (RX,TX) 
 
 OneWire ds(12); // on pin 12
